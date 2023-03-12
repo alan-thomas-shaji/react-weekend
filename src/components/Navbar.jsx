@@ -13,10 +13,12 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <div className="nav-item text-purple px-4 hover:text-white">
-                    <span className='p-2'>
+                    <a href="https://github.com/alan-thomas-shaji/react-weekend" target="_blank">
+                      <span className='p-2'>
                         <GitHubIcon />
-                    </span>  
-                    Source Code
+                      </span>  
+                       Source Code
+                    </a>
                 </div>
             </div>
           </div>
