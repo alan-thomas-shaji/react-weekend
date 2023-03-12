@@ -11,10 +11,10 @@ const Card = ({name, topic, repoName}) => {
             </div>
             <div className="card-details m-4 text-left">
                 <div className="card-name text-lg font-bold"> 
-                  <span className='text-xl text-black'>Project:</span> 
+                  <span className='text-xl text-white'>Project:</span> 
                   <span className='text-purple px-1'>{name}</span>
                 </div>
-                <div className="card-role text-lg-bold text-mlh-text-blue"> <span>Things included:</span> {topic}</div>
+                <div className="card-role text-lg-bold text-white"> <span>Things included:</span> {topic}</div>
             </div>
           </div>
         </a>
